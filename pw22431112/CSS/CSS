@@ -1,0 +1,8 @@
+Selectores son:
+Etiqueta, Identificador o una clase,
+pseudo etiquetas
+selector o un conjunto{
+    atributo: valor;
+    atributo: valor;
+    atributo valor;
+}

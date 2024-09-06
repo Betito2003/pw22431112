@@ -1,0 +1,40 @@
+body{
+    border: 1px solid red;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+footer{
+    border: 1px solid blue;
+}
+header nav ol{
+    text-align: center;
+}
+header img{
+    border-radius: 500px;
+    width: 50px;
+}
+header nav ol li{
+    background: blueviolet;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    box-shadow: 4px -4px 5px burlywood; /*izquierda o derecha - arriba o abajo - opacidad*/
+    color: white;
+    display: inline-block;
+    margin-right: 25px;
+    /*padding: 12px;*/
+    padding: 10px 26px;
+}
+
+header nav ol li:hover{
+    background: white;
+    box-shadow: 0px 0px 0px white; /*izquierda o derecha - arriba o abajo - opacidad*/
+    color: blueviolet;
+}
+
+main section article{
+    border: 1px solid red;
+    display: inline-block;
+    vertical-align: top;
+    width: 32.8%;
+}
