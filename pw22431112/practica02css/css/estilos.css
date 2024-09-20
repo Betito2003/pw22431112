@@ -1,0 +1,169 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1078px;
+    min-width: 1078px;
+}
+
+footer{
+    background: rgba(60,101,177,1);
+    color: white;
+    margin-top: 40px;
+}
+
+footer article{
+    display: inline-block;
+    width: 30%;
+    padding-top: 40px;
+}
+header input{
+    float: right;
+    margin-right: -200px;
+    margin-top: 15px;
+}
+
+header nav{
+    margin-left: 220px;
+}
+
+header nav ul li{
+    border-bottom: 1px solid lightgray;
+    color: lightgray;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 15px;
+    padding-bottom: 2px;
+    /*text-decoration: underline;*/
+}
+
+#bgoffer{
+    /*Static es por defecto
+      se usa margin */
+    left: -35px;
+    top: -406px;  
+    position: relative;
+}
+
+#personas{
+    left: 820px;
+    top: -241px;  
+    position: relative;
+}
+
+#facebook{
+    left: 800px;
+    top: -220px;  
+    position: relative;
+}
+
+#twitter{
+    left: 810px;
+    top: -220px;  
+    position: relative;
+}
+
+#granthams{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#paint{
+    float: right;
+}
+#primeraSeccion{
+    height: 318px;
+    margin-top: 60px;
+}
+#primeraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secc01art01{
+    margin-left: 30px;
+    width: 60%;
+}
+#secc01art02{
+    margin-left: 50px;
+    width: 30%;
+    color: #FF0099;
+}
+
+#secc01art02 ul{
+    /*Se borran los circulos negros*/
+    list-style: none;
+    margin-left: -40px;
+}
+
+#secc01art02 ul li::before{
+    content: "• ";
+    color: #FF0099;
+}
+
+#secc03art04{
+    margin-top: 40px;
+}
+
+#secc03art04 input{
+    border-radius: 5px;
+ }
+
+#secc03art04 input[type="button"]{
+   background: #8BC500;
+   color: white;
+}
+
+#footerart01{
+   width: 38%;
+}
+
+#footerart02{
+  text-align: center;
+}
+
+#footerart03{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footerart03 [type="button"]{
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    margin-left: 15%;
+    padding: 5px 15px; 
+}
+
+#segundaSeccion article{
+    margin-right: 165px;
+    text-align: right;
+}
+
+#terceraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+
+.colorazul{
+    color: #4367B3;
+}
+.colorrosa{
+    color: #FF0099;
+}
+.colorverde{
+    color: #8BC500;
+}
+.letragrande{
+    font-size: 3.5em;
+}
+.letramediana{
+    font-size: 2em;
+}
+.nito{
+    font-weight: bold;
+}
